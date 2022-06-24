@@ -1,0 +1,16 @@
+import numpy as np 
+#1d Array
+arr = np.array([12,34,12,4,5,8])
+#2d array
+arryay_2d = np.array([[12,56,2,7,9],[2,3,4,5,1]])
+
+print(arr)
+print(arryay_2d)
+#diamension of array
+print(arr.ndim)
+print(arryay_2d.ndim)
+#print(type(arr))
+five = np.array([1,2,3,4,5],ndmin=5)
+print(five.ndim)
+print(five)
+print(five.shape)
