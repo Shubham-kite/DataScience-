@@ -59,10 +59,16 @@ list2 =[]
 list2.append(sec_3)
 list2.append(sec_6)
 list2.append(sec_10)
+plt.title("Memory Score")
+plt.xlabel("Time ")
+plt.ylabel("score")
+plt.plot(list1,list2)
+'''
 plt.plot(list1,list2)
 fig,ax = plt.subplots()
 ax.set_ylabel('Score')
-ax.set_xlabel('time')
+ax.set_xlabel('time')'''
+
 plt.show()
 
 #data = dict(zip(list1,list2))
