@@ -14,9 +14,9 @@ slope,intercept,r,p,std_err = stats.linregress(x,y)
 
 def linear(x):
     return slope *x + intercept
-value = linear(9)
+value = linear(17)
 print(value)
-
+  
 visual = list(map(linear,x))
 plt.scatter(x, y)
 plt.plot(x,visual)
