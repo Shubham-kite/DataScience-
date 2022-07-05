@@ -3,9 +3,27 @@ import numpy as np
 from scipy import stats
 import numpy as np
 import pandas as pd 
-x=[1,2,3,4,6]
-y=[2,4,6,8,12]
-plt.xlabel("Time")
+x=[686.85,
+685.95,
+696.1,
+686.6,
+699.15,
+713.45,
+717.35,
+710.3,
+702.75,
+]
+y=[692.65,
+687.8,
+708,
+698.9,
+706,
+715.25,
+728.85,
+717.3,
+706.7,
+]
+plt.xlabel("Prevoius Close")
 plt.ylabel("Price")
 slope,intercept,r,p,std_err = stats.linregress(x,y)
 def linear(x):
